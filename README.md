@@ -1,5 +1,36 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Install dependencies
+
+- Install [Node](https://nodejs.org/en/)
+  Open terminal and check
+
+  ```bash
+  npm -v
+  # and 
+  node -v  
+  ```
+
+- Install [yarn](https://yarnpkg.com/). For this project we use yarn as project manager
+  Run in terminal 
+
+  ```bash
+    npm i yarn -g
+  ```
+  Check if yarn has installed
+
+  ```bash
+    yarn -v
+  ```
+
+- Install project modules 
+  Go to project root folder and run 
+
+  ```bash
+    yarn
+  ```
+
+
 ## Getting Started
 
 First, run the development server:
