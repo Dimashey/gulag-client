@@ -2,7 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "store/*": ["./src/store/*"]
+      "store/*": ["./src/store/*"],
+      "request/*": ["./src/packages/api/*"],
+      "resources/*": ["./src/resources/*"],
+      "models/*": ["./src/models/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
